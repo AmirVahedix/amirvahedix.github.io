@@ -29,13 +29,12 @@ export default function Landing({ aboutRef, portfolioRef, contactRef }: Props) {
               Full Stack Developer
             </h4>
             <div className="mt-6">
-              <Link
-                href="/projects"
+              <button
                 className="text-white bg-black px-5 py-3 rounded mr-4"
-                as="button"
+                onClick={scrollToPortfolioHandler}
               >
                 My Projects
-              </Link>
+              </button>
               <button
                 onClick={scrollToContactHandler}
                 className="text-black px-2 py-3"

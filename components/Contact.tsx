@@ -29,7 +29,7 @@ const Contact = ({ contactRef }: Props) => {
   //   };
 
   return (
-    <div className="flex justify-center bg-yellow py-20" ref={contactRef}>
+    <div className="flex justify-center bg-yellow py-20 mt-36" ref={contactRef}>
       <div className="w-11/12 lg:w-3/4">
         <h5 className="text-center text-5xl font-bold leading-snug">
           Have a project? Lets do it!
