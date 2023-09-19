@@ -2,7 +2,8 @@
 
 import About from "@/components/About/About";
 import Landing from "@/components/Landing";
-import Skills from "@/components/Skills";
+import Portfolio from "@/components/Portfolio/Portfolio";
+import Skills from "@/components/Skills/Skills";
 // import About from "@/Sections/Index/About";
 // import Skills from "@/Sections/Index/Skills";
 // import Portfolio from "@/Sections/Index/Portfolio";
@@ -13,8 +14,8 @@ import { useRef } from "react";
 
 export default function HomePage() {
   const aboutRef = useRef<HTMLDivElement>(null);
-  const portfolioRef = useRef<HTMLElement>();
-  const contactRef = useRef<HTMLElement>();
+  const portfolioRef = useRef<HTMLDivElement>(null);
+  const contactRef = useRef<HTMLDivElement>(null);
 
   return (
     <>
@@ -28,11 +29,9 @@ export default function HomePage() {
 
       <Skills />
 
+      <Portfolio portfolioRef={portfolioRef} />
+
       {/* 
-
-
-
-      <Portfolio portfolioRef={portfolioRef} portfolios={props.portfolios} />
 
       <Certificates certificates={props.certificates} />
 

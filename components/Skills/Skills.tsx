@@ -1,6 +1,6 @@
-import Heading from "./Heading";
-import OtherSkillsItem from "./Skills/OtherSkillsItem";
-import SkillItem from "./Skills/SkillItem";
+import Heading from "../Heading";
+import OtherSkillsItem from "./OtherSkillsItem";
+import SkillItem from "./SkillItem";
 
 export default function Skills() {
   return (

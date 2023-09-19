@@ -1,4 +1,4 @@
-import React, { MutableRefObject, RefObject } from "react";
+import { RefObject } from "react";
 import Link from "next/link";
 import { HiArrowSmDown } from "react-icons/hi";
 import ProfileImage from "@/public/images/amirvahedix.jpg";
@@ -6,8 +6,8 @@ import Image from "next/image";
 
 type Props = {
   aboutRef: RefObject<HTMLDivElement>;
-  portfolioRef: MutableRefObject<HTMLElement | undefined>;
-  contactRef: MutableRefObject<HTMLElement | undefined>;
+  portfolioRef: RefObject<HTMLDivElement>;
+  contactRef: RefObject<HTMLDivElement>;
 };
 
 export default function Landing({ aboutRef, portfolioRef, contactRef }: Props) {
