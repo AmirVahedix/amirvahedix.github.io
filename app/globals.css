@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body::-webkit-scrollbar {
+    width: 0.2em;
+  }
+
+  body::-webkit-scrollbar-thumb {
+    background-color: #010101;
+  }
+
+  input,
+  textarea {
+    box-shadow: none !important;
+  }
+}

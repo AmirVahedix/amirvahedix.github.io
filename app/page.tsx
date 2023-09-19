@@ -2,6 +2,7 @@
 
 import About from "@/components/About/About";
 import Landing from "@/components/Landing";
+import Skills from "@/components/Skills";
 // import About from "@/Sections/Index/About";
 // import Skills from "@/Sections/Index/Skills";
 // import Portfolio from "@/Sections/Index/Portfolio";
@@ -25,10 +26,11 @@ export default function HomePage() {
 
       <About aboutRef={aboutRef} />
 
+      <Skills />
+
       {/* 
 
 
-      <Skills skills={props.skills} otherSkills={props.otherSkills} />
 
       <Portfolio portfolioRef={portfolioRef} portfolios={props.portfolios} />
 
