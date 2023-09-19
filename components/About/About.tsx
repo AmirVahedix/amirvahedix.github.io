@@ -28,12 +28,14 @@ export default function About({ aboutRef }: Props) {
                   Amir Vahedi
                 </h2>
               </div>
-              <p className="mt-8 md:mt-3 text-lg text-justify font-thin leading-8">
-                I{"'"}m a Dentistry Student at Tehran University of Medical
-                Sciences and a Full-stack Developer. I worked with Laravel
-                and NextJS as my main tools for the past few years. Also, I
-                really enjoy working on Medical AI researches and studies using
-                Python and its libraries.
+              <p className="mt-8 md:mt-3 text-lg text-justify font-light leading-8">
+                I{"'"}m a full-stack developer specializing in Laravel, Next.js,
+                and Python. My passion for technology extends into the realm of
+                Medical AI, where I apply Python{"'"}s capabilities to create
+                innovative solutions. My versatile skill set enables me to build
+                robust applications and impactful solutions for many facilities.
+                Staying updated with industry trends, I{"'"}m an adaptable asset
+                for any project.
               </p>
             </div>
             <div className="w-full md:w-96 mt-8 md:mt-0 flex flex-col items-center justify-center">
