@@ -20,9 +20,9 @@ export default function CustomInput({
         value={value}
         onChange={onChange}
         className={`
-                    bg-lightgray mt-1 border-grey transition-all shadow-none focus:border-black outline-none rounded h-10
-                    ${inputClassName}
-                `}
+            px-3 bg-lightgray mt-1 border-grey transition-all shadow-none focus:border-black outline-none rounded h-10
+            ${inputClassName}
+        `}
         readOnly={readOnly}
       />
     </div>

@@ -19,9 +19,9 @@ export default function CustomTextarea({
         onChange={onChange}
         rows={rows}
         className={`
-                    bg-lightgray mt-1 border-grey transition-all shadow-none focus:border-black outline-none rounded
-                    ${inputClassName}
-                `}
+            px-3 py-2 bg-lightgray mt-1 border-grey transition-all shadow-none focus:border-black outline-none rounded
+            ${inputClassName}
+        `}
       />
     </div>
   );

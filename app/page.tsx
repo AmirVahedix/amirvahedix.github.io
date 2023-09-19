@@ -28,7 +28,7 @@ export default function HomePage() {
 
       <Portfolio portfolioRef={portfolioRef} />
 
-      <Certificates />
+      {/* <Certificates /> */}
 
       <Contact contactRef={contactRef} />
     </>
