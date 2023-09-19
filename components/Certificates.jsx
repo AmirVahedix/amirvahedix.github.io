@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import InfiniteCarousel from "react-leaf-carousel";
 import { IoIosArrowForward, IoIosArrowBack } from "react-icons/io";
-import Heading from "../Heading";
+import Heading from "./Heading";
 
 export default function Certificates() {
   const [certificates, setCertificates] = useState([

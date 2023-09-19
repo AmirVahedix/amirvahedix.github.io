@@ -6,7 +6,8 @@ import About from "@/components/About/About";
 import Landing from "@/components/Landing";
 import Portfolio from "@/components/Portfolio/Portfolio";
 import Skills from "@/components/Skills/Skills";
-import Certificates from "@/components/Certificates/Certificates";
+import Certificates from "@/components/Certificates";
+import Contact from "@/components/Contact";
 
 export default function HomePage() {
   const aboutRef = useRef<HTMLDivElement>(null);
@@ -29,9 +30,7 @@ export default function HomePage() {
 
       <Certificates />
 
-      {/* 
-
-      <Contact contactRef={contactRef} settings={props.settings} /> */}
+      <Contact contactRef={contactRef} />
     </>
   );
 }
