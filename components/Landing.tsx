@@ -1,11 +1,11 @@
-import React, { MutableRefObject } from "react";
+import React, { MutableRefObject, RefObject } from "react";
 import Link from "next/link";
 import { HiArrowSmDown } from "react-icons/hi";
 import ProfileImage from "@/public/images/amirvahedix.jpg";
 import Image from "next/image";
 
 type Props = {
-  aboutRef: MutableRefObject<HTMLElement | undefined>;
+  aboutRef: RefObject<HTMLDivElement>;
   portfolioRef: MutableRefObject<HTMLElement | undefined>;
   contactRef: MutableRefObject<HTMLElement | undefined>;
 };

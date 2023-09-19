@@ -1,6 +1,7 @@
 "use client";
 
-import Landing from "@/components/Index/Landing";
+import About from "@/components/About/About";
+import Landing from "@/components/Landing";
 // import About from "@/Sections/Index/About";
 // import Skills from "@/Sections/Index/Skills";
 // import Portfolio from "@/Sections/Index/Portfolio";
@@ -10,7 +11,7 @@ import Landing from "@/components/Index/Landing";
 import { useRef } from "react";
 
 export default function HomePage() {
-  const aboutRef = useRef<HTMLElement>();
+  const aboutRef = useRef<HTMLDivElement>(null);
   const portfolioRef = useRef<HTMLElement>();
   const contactRef = useRef<HTMLElement>();
 
@@ -21,9 +22,11 @@ export default function HomePage() {
         portfolioRef={portfolioRef}
         contactRef={contactRef}
       />
+
+      <About aboutRef={aboutRef} />
+
       {/* 
 
-      <About aboutRef={aboutRef} settings={props.settings} />
 
       <Skills skills={props.skills} otherSkills={props.otherSkills} />
 

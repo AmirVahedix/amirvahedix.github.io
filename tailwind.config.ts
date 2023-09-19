@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import plugin from "tailwindcss/plugin";
 
 const config: Config = {
   content: [
@@ -30,6 +31,14 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addBase, theme }) {
+      addBase({
+        h1: { fontSize: theme("fontSize.7xl") },
+        h2: { fontSize: theme("fontSize.4xl") },
+        h3: { fontSize: theme("fontSize.lg") },
+      });
+    }),
+  ],
 };
 export default config;
