@@ -1,16 +1,12 @@
 "use client";
 
+import { useRef } from "react";
+
 import About from "@/components/About/About";
 import Landing from "@/components/Landing";
 import Portfolio from "@/components/Portfolio/Portfolio";
 import Skills from "@/components/Skills/Skills";
-// import About from "@/Sections/Index/About";
-// import Skills from "@/Sections/Index/Skills";
-// import Portfolio from "@/Sections/Index/Portfolio";
-// import Certificates from "@/Sections/Index/Certificates";
-// import Contact from "@/Sections/Index/Contact";
-
-import { useRef } from "react";
+import Certificates from "@/components/Certificates/Certificates";
 
 export default function HomePage() {
   const aboutRef = useRef<HTMLDivElement>(null);
@@ -31,9 +27,9 @@ export default function HomePage() {
 
       <Portfolio portfolioRef={portfolioRef} />
 
-      {/* 
+      <Certificates />
 
-      <Certificates certificates={props.certificates} />
+      {/* 
 
       <Contact contactRef={contactRef} settings={props.settings} /> */}
     </>
