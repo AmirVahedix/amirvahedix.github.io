@@ -33,7 +33,7 @@ export default function Portfolio({ portfolioRef }: Props) {
           <PortfolioItem
             title="Shift Agency"
             imageUrl={ShiftImage}
-            link="https://shift-agency.com/"
+            link="https://shift-agency.vercel.app/"
           />
           <PortfolioItem
             title="HamrahFelez"
@@ -43,7 +43,7 @@ export default function Portfolio({ portfolioRef }: Props) {
           <PortfolioItem
             title="AVC Books"
             imageUrl={AVCImage}
-            link="https://avc-books.org/"
+            link="https://avc-books.vercel.app/"
           />
           <PortfolioItem
             title="Neurosurgery Association"
