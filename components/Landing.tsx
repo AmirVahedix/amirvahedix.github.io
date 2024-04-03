@@ -1,7 +1,6 @@
 import { RefObject } from "react";
-import Link from "next/link";
 import { HiArrowSmDown } from "react-icons/hi";
-import ProfileImage from "@/public/images/amirvahedix.jpg";
+import ProfileImage from "@/public/images/profile.jpg";
 import Image from "next/image";
 
 type Props = {
@@ -26,7 +25,7 @@ export default function Landing({ aboutRef, portfolioRef, contactRef }: Props) {
             </h1>
 
             <h4 className="text-2xl lg:text-3xl font-light">
-              Full Stack Developer
+              Software Developer
             </h4>
             <div className="mt-6">
               <button

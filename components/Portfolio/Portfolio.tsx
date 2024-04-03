@@ -13,6 +13,8 @@ import FahimImage from "@/public/images/fahim.jpg";
 import HitalImage from "@/public/images/hital.jpg";
 import AHVImage from "@/public/images/ahv.jpg";
 import MoboplazImage from "@/public/images/moboplaz.jpg";
+import ClinicMotorImage from "@/public/images/clinic-motor.png";
+import SilinoImage from "@/public/images/silino.png";
 
 type Props = {
   portfolioRef: RefObject<HTMLDivElement>;
@@ -25,6 +27,11 @@ export default function Portfolio({ portfolioRef }: Props) {
 
       <div className="flex flex-col items-center mb-10 -mt-6">
         <div className="flex flex-wrap w-11/12 lg:w-3/4">
+          <PortfolioItem
+            title="ClinicMotor"
+            imageUrl={ClinicMotorImage}
+            link="https://clinicmotor.ir/"
+          />
           <PortfolioItem
             title="RadioBamik"
             imageUrl={RadioBamikImage}
@@ -68,7 +75,12 @@ export default function Portfolio({ portfolioRef }: Props) {
           <PortfolioItem
             title="Moboplaz"
             imageUrl={MoboplazImage}
-            link="https://moboplaz,com/"
+            link="https://moboplaz.ir/"
+          />
+          <PortfolioItem
+            title="Silino"
+            imageUrl={SilinoImage}
+            link="https://silino.ir/"
           />
         </div>
         {/* <Link

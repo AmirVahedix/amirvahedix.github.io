@@ -43,7 +43,7 @@ export default function About({ aboutRef }: Props) {
                 style={{ borderRadius: "32% 68% 62% 38% / 40% 59% 41% 60%" }}
                 className="relative fancy_border bg-yellow w-32 h-32 flex items-center justify-center"
               >
-                <span className="text-9xl font-extrabold">9</span>
+                <span className="text-9xl font-extrabold">10</span>
               </div>
               <div className="flex mt-5">
                 <span className="text-3xl font-bold mr-1">Finished</span>
