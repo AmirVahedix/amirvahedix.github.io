@@ -1,5 +1,4 @@
 import { RefObject } from "react";
-import Link from "next/link";
 
 import Heading from "../Heading";
 import PortfolioItem from "./PortfolioItem";
@@ -15,6 +14,7 @@ import AHVImage from "@/public/images/ahv.jpg";
 import MoboplazImage from "@/public/images/moboplaz.jpg";
 import ClinicMotorImage from "@/public/images/clinic-motor.png";
 import SilinoImage from "@/public/images/silino.png";
+import NajiFoundationImage from "@/public/images/naji-foundation.jpg";
 
 type Props = {
   portfolioRef: RefObject<HTMLDivElement>;
@@ -27,6 +27,11 @@ export default function Portfolio({ portfolioRef }: Props) {
 
       <div className="flex flex-col items-center mb-10 -mt-6">
         <div className="flex flex-wrap w-11/12 lg:w-3/4">
+          <PortfolioItem
+            title="NajiFoundation"
+            imageUrl={NajiFoundationImage}
+            link="https://najifoundation.com/"
+          />
           <PortfolioItem
             title="ClinicMotor"
             imageUrl={ClinicMotorImage}
