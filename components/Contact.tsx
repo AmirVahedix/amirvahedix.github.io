@@ -35,57 +35,7 @@ const Contact = ({ contactRef }: Props) => {
           Have a project? Lets do it!
         </h5>
         <div className="flex flex-col lg:flex-row mt-16">
-          <div className="w-full md:w-1/2 px-3">
-            {/* <ValidationErrors errors={errors} /> */}
-            <form className="w-full md:w-5/6">
-              <h6 className="text-4xl font-bold">Fill This Form</h6>
-              {/* {flash.message && (
-                <div className="text-lg bg-green text-white rounded-lg mt-4 p-3">
-                  {flash.message}
-                </div>
-              )} */}
-              <CustomInput
-                className="mt-4"
-                label="Your Name:"
-                name="name"
-                value={name}
-                onChange={(e: FormEvent<HTMLInputElement>) =>
-                  setName(e.currentTarget.value)
-                }
-                inputClassName="border-lightgray"
-              />
-              <CustomInput
-                className="mt-4"
-                label="Your Email:"
-                name="email"
-                value={email}
-                onChange={(e: FormEvent<HTMLInputElement>) =>
-                  setEmail(e.currentTarget.value)
-                }
-                inputClassName="border-lightgray"
-              />
-              <CustomTextarea
-                className="mt-4"
-                label="A short description of your project:"
-                name="message"
-                value={message}
-                onChange={(e: FormEvent<HTMLInputElement>) =>
-                  setMessage(e.currentTarget.value)
-                }
-                inputClassName="border-lightgray"
-              />
-              <button
-                type="submit"
-                className="flex items-center bg-black text-lg rounded mt-3 py-2 px-5 text-white"
-              >
-                Send!
-                {/* {!processing ? "Send" : "Loading..."} */}
-                {/* {!processing && <HiArrowSmRight className="text-xl ml-1" />} */}
-              </button>
-            </form>
-          </div>
-          <div className="w-full md:w-1/2 px-3 mt-16 md:mt-0">
-            <h6 className="text-4xl font-bold">OR Just Talk To Me!</h6>
+          <div className="w-full md:w-1/3 mx-auto px-3 mt-16 md:mt-0">
             <p className="mt-6 font-light text-xl">
               I enjoy working on challenging projects and brand new ideas. If
               you want a website, mobile application or anything else you can
