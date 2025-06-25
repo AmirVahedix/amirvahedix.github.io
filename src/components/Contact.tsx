@@ -50,9 +50,9 @@ export const Contact: React.FC = () => {
               
               <div className="space-y-6">
                 {[
-                  { icon: Mail, label: 'Email', value: 'alex.johnson@email.com', href: 'mailto:alex.johnson@email.com' },
-                  { icon: Phone, label: 'Phone', value: '+1 (555) 123-4567', href: 'tel:+15551234567' },
-                  { icon: MapPin, label: 'Location', value: 'San Francisco, CA', href: '#' },
+                  { icon: Mail, label: 'Email', value: 'AmirVahedix@email.com', href: 'mailto:amirvahedix@email.com' },
+                  { icon: Phone, label: 'Phone', value: '+98 913 367 2471', href: 'tel:+989133672471' },
+                  { icon: MapPin, label: 'Location', value: 'Tehran, Ir', href: '#' },
                 ].map(({ icon: Icon, label, value, href }) => (
                   <a
                     key={label}
@@ -77,9 +77,9 @@ export const Contact: React.FC = () => {
                 </h4>
                 <div className="flex space-x-4">
                   {[
-                    { icon: Github, href: '#', label: 'GitHub' },
-                    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-                    { icon: Twitter, href: '#', label: 'Twitter' },
+                    { icon: Github, href: 'https://github.com/amirvahedix', label: 'GitHub' },
+                    { icon: Linkedin, href: 'https://linkedin.com/in/amirvahedix', label: 'LinkedIn' },
+                    { icon: Twitter, href: 'https://x.com/amirvahedix', label: 'Twitter' },
                   ].map(({ icon: Icon, href, label }) => (
                     <a
                       key={label}
