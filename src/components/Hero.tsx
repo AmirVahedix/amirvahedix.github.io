@@ -1,7 +1,7 @@
 import React from 'react';
 import { Github, Linkedin, Mail, MapPin } from 'lucide-react';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
-import ProfileImage from '../assets/images/profile.jpg'
+import ProfileImage from '../assets/images/profile.png'
 
 export const Hero: React.FC = () => {
   const { ref, isVisible } = useScrollAnimation();
