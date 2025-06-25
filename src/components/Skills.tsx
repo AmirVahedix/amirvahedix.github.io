@@ -5,28 +5,27 @@ const skillCategories = [
   {
     title: 'Backend Development',
     skills: [
-      { name: 'PHP', level: 95 },
-      { name: 'Laravel', level: 90 },
-      { name: 'MySQL', level: 85 },
-      { name: 'PostgreSQL', level: 80 },
+      { name: 'PHP', level: 90 },
+      { name: 'Laravel', level: 85 },
+      { name: 'Python', level: 60 },
+      { name: 'Git & Github', level: 85 },
     ]
   },
   {
-    title: 'DevOps & Cloud',
+    title: 'Database',
     skills: [
-      { name: 'Docker', level: 85 },
-      { name: 'AWS', level: 80 },
-      { name: 'Linux', level: 90 },
-      { name: 'CI/CD', level: 75 },
+      { name: 'MySQL', level: 80 },
+      { name: 'RabbitMQ', level: 70 },
+      { name: 'ElasticSearch', level: 70 },
     ]
   },
   {
-    title: 'API & Integration',
+    title: 'Tools',
     skills: [
-      { name: 'REST APIs', level: 95 },
-      { name: 'GraphQL', level: 70 },
-      { name: 'Microservices', level: 80 },
-      { name: 'WebSockets', level: 75 },
+      { name: 'Filament', level: 95 },
+      { name: 'Livewire', level: 90 },
+      { name: 'TailwindCSS', level: 80 },
+      { name: 'AlpineJS', level: 80 },
     ]
   },
 ];
