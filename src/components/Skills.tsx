@@ -20,12 +20,13 @@ const skillCategories = [
     ]
   },
   {
-    title: 'Tools',
+    title: 'Tools & Skills',
     skills: [
       { name: 'Filament', level: 95 },
       { name: 'Livewire', level: 90 },
       { name: 'TailwindCSS', level: 80 },
       { name: 'AlpineJS', level: 80 },
+      { name: 'Scrum & Agile', level: 60 },
     ]
   },
 ];

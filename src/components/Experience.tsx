@@ -5,45 +5,48 @@ import { useScrollAnimation } from '../hooks/useScrollAnimation';
 const experiences = [
   {
     id: 1,
-    title: 'Senior Backend Developer',
-    company: 'TechCorp Solutions',
-    location: 'San Francisco, CA',
-    period: '2021 - Present',
-    description: 'Lead backend development for enterprise-level applications serving 1M+ users. Architected microservices infrastructure and implemented CI/CD pipelines.',
-    achievements: [
-      'Reduced API response time by 60% through database optimization',
-      'Led team of 5 developers in migrating monolith to microservices',
-      'Implemented real-time features serving 100K+ concurrent users'
-    ],
-    technologies: ['Laravel', 'PHP 8', 'MySQL', 'Redis', 'Docker', 'AWS'],
+    title: 'Technical Team Lead',
+    company: 'Rasadent',
+    location: 'Tehran, Iran',
+    period: '2024 - Present',
+    description: 'As a Technical Team Lead at Resadent, I led the development of several key products, including Resadent Marketplace, a multi-vendor online e-commerce platform for dental equipment.. I also led the creation of ResaChortekeh, an accounting system tailored for dentists, enabling them to calculate treatment costs based on materials and consumables, so they can determine their profit margins. In my role as Senior Backend Developer and Team Lead, I was responsible for the entire product lifecycle, from initial development to launch, working closely with my team. Our backend was built using PHP/Laravel, and we leveraged tools such as RabbitMQ and ElasticSearch. Project management was facilitated through Nibak, our in-house project management tool, and Git & GitHub was used for our source code management.',
+    technologies: ['Laravel', 'PHP', 'MySQL', 'RabbitMQ', 'ElasticSearch', 'Amazon S3'],
   },
   {
     id: 2,
-    title: 'Backend Developer',
-    company: 'Digital Innovations Inc',
-    location: 'San Jose, CA',
-    period: '2019 - 2021',
-    description: 'Developed and maintained multiple client projects, focusing on API development and database design for e-commerce and fintech applications.',
-    achievements: [
-      'Built payment processing system handling $2M+ monthly transactions',
-      'Designed scalable database architecture for multi-tenant applications',
-      'Mentored junior developers and established coding standards'
-    ],
-    technologies: ['Laravel', 'PHP 7', 'PostgreSQL', 'Vue.js', 'AWS', 'Stripe'],
+    title: 'Technical Manager',
+    company: 'NeuroSurgery Association of SBUMS',
+    location: 'Tehran, Iran',
+    period: '2022 - Present',
+    description: 'For the past three years, I have served as the part-time Technical Manager at the Neurosurgery Association ofShahid Beheshti University. The association offers accredited training courses in neurosurgery, artificial intelligence in medicine, and research. These courses are conducted on the Neurosurgery platform, which I developed from the ground up using the Laravel framework, along with Livewire, TailwindCSS, and AlpineJS. The platform supports features such as online exams and certificate generation for participants. I have also collaborated with the association on writing articles related to artificial intelligence in medical science.',
+    technologies: ['Laravel', 'PHP', 'MySQL', 'TailwindCSS', 'Livewire', 'AlpineJS'],
   },
   {
     id: 3,
-    title: 'PHP Developer',
-    company: 'WebSolutions Agency',
-    location: 'Sacramento, CA',
-    period: '2017 - 2019',
-    description: 'Developed custom web applications and CMS solutions for small to medium businesses. Focused on performance optimization and user experience.',
-    achievements: [
-      'Delivered 20+ successful web applications',
-      'Improved website performance by 80% through optimization',
-      'Established automated testing protocols'
-    ],
-    technologies: ['PHP', 'Laravel', 'MySQL', 'jQuery', 'Bootstrap'],
+    title: 'Chief Technology Officer',
+    company: '310 Agency',
+    location: 'Tehran, Iran',
+    period: '2023 - 2024',
+    description: 'As Chief Technology Officer at 310 Branding & Programming Agency, I managed a portfolio of projects. This included the Naji Foundation e-learning platform focused on medical sciences, the Melki Parts e-commerce platform for automotive performance parts, and Wabba Iran, a website for bodybuilding training and competitions.',
+    technologies: ['Laravel', 'PHP', 'MySQL', 'TailwindCSS', 'Livewire', 'AlpineJS'],
+  },
+  {
+    id: 4,
+    title: 'Front-end Developer',
+    company: 'Hital',
+    location: 'Yazd, Iran (Remote)',
+    period: '2021 - 2023',
+    description: 'As a Front-end Developer at Hital, I contributed to a range of projects, including Hamrah Felez, which is an online directory for the iron and steel industry, and Radio Bamik, an internet radio platform specializing in podcasts and audiobooks, etc.',
+    technologies: ['NextJS', 'ReactJS', 'TailwindCSS', 'TypeScript'],
+  },
+  {
+    id: 5,
+    title: 'Back-end Developer',
+    company: 'Silino',
+    location: 'Kerman, Iran',
+    period: '2019 - 2021',
+    description: '',
+    technologies: ['Laravel', 'PHP', 'MySQL', 'TailwindCSS', 'Livewire', 'AlpineJS'],
   },
 ];
 
@@ -89,7 +92,7 @@ export const Experience: React.FC = () => {
                         {exp.title}
                       </h3>
                       <div className="flex items-center text-yellow-400 font-medium mb-2">
-                        <ExternalLink className="w-4 h-4 mr-2" />
+                        {/* <ExternalLink className="w-4 h-4 mr-2" /> */}
                         <span>{exp.company}</span>
                       </div>
                     </div>
@@ -109,7 +112,7 @@ export const Experience: React.FC = () => {
                     {exp.description}
                   </p>
 
-                  <div className="mb-4">
+                  {/* <div className="mb-4">
                     <h4 className="font-semibold text-white mb-2">Key Achievements:</h4>
                     <ul className="space-y-1">
                       {exp.achievements.map((achievement, i) => (
@@ -119,7 +122,7 @@ export const Experience: React.FC = () => {
                         </li>
                       ))}
                     </ul>
-                  </div>
+                  </div> */}
 
                   <div className="flex flex-wrap gap-2">
                     {exp.technologies.map((tech) => (

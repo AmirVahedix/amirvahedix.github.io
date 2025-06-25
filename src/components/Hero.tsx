@@ -71,10 +71,11 @@ export const Hero: React.FC = () => {
           isVisible ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
         }`}>
           <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-            Passionate backend developer with 8+ years of experience building scalable web applications with 
-            <span className="text-yellow-400 font-semibold"> PHP & Laravel</span>. 
-            I specialize in creating robust APIs, optimizing database performance, and architecting 
-            cloud-native solutions that power modern businesses.
+            I am a back-end developer with 5+ years of experience working with edge technologies. 
+            I participated in many back-end projects these years using <span className="text-yellow-400 font-semibold">PHP & Laravel</span> as my main stack and 
+            libraries like Livewire, Filament, etc.  I follow the trends of the back-end world 
+            and keep myself updated with the latest tools. I love working in teams and creating magic
+             in the world together.
           </p>
         </div>
 
