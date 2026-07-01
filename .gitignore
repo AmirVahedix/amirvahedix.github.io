@@ -1,0 +1,27 @@
+# Hugo build outputs
+# The /public directory contains the generated static HTML/CSS/JS. 
+# Your hosting provider (like Vercel, Cloudflare Pages, etc.) will build this on the fly.
+/public/
+/resources/
+
+# Hugo lock file generated during builds
+.hugo_build_lock
+
+# Local development and environment variables
+.env
+.env.*
+!.env.example
+
+# Operating System specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Common IDE/Editor directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
