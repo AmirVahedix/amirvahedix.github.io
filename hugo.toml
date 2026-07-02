@@ -1,5 +1,5 @@
 title = 'Amir Vahedi'
-baseurl = "https://amirvahedix.github.io"
+baseurl = "/"
 locale = "en-us"
 theme = "terminal"
 pagination.pagerSize = 5
@@ -133,3 +133,9 @@ pagination.pagerSize = 5
           name = "درباره من"
           url = "/fa/about"
 
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
