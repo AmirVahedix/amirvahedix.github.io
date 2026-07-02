@@ -1,0 +1,50 @@
+<style>
+  .menu__dropdown {
+    min-width: 100px !important;
+  }
+</style>
+{{ if eq .Site.Language.Lang "fa" }}
+<!-- Import Vazirmatn Font for Persian Typography -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;700&display=swap" rel="stylesheet">
+
+<style>
+  /* Apply Persian font to the entire body when in fa mode */
+  body, input, textarea, button, code, pre {
+    font-family: 'Vazirmatn', Tahoma, sans-serif !important;
+  }
+
+  @media (max-width: 684px) {
+    .menu--mobile .menu__dropdown {
+        left: 0;
+        right: auto;
+    }
+  }
+
+  .menu__trigger {
+    margin-left: 0px !important;
+    margin-right: 10px !important;
+  }
+
+  /* Fix navigation margins for RTL layout */
+  .menu-trigger {
+    margin-right: 0 !important;
+    margin-left: auto !important;
+  }
+  
+  .header__inner {
+    direction: rtl;
+  }
+
+  /* Fix posts list punctuation rendering */
+  .post {
+    text-align: right !important;
+  }
+
+
+  .navigation-menu__inner>li:not(:last-of-type) {
+    margin-left: 20px;
+  }
+</style>
+{{ end }}

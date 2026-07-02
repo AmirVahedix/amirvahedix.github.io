@@ -1,5 +1,5 @@
 +++
-title = "Ct vs Cbct"
+title = "CT vs CBCT"
 date = "2026-07-02T02:41:09+03:30"
 #dateFormat = "2006-01-02"
 author = "Amir Vahedi"
