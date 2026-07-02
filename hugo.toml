@@ -1,5 +1,5 @@
 title = 'Amir Vahedi'
-baseurl = "/"
+baseurl = "https://amirvahedix.github.io"
 locale = "en-us"
 theme = "terminal"
 pagination.pagerSize = 5
