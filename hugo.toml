@@ -72,7 +72,8 @@ pagination.pagerSize = 5
 
 [languages]
   [languages.en]
-    label = "English"
+    languageName = "English"
+    languageCode = "en-us"
     title = "Amir Vahedi"
 
     [languages.en.params]
@@ -102,7 +103,8 @@ pagination.pagerSize = 5
           url = "/about"
 
   [languages.fa]
-    label = "فارسی"
+    languageName = "فارسی"
+    languageCode = "fa-ir"
     title = "امیر واحدی"
 
     [languages.fa.params]
