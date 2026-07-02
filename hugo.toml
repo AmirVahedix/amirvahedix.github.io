@@ -131,5 +131,5 @@ pagination.pagerSize = 5
         [[languages.fa.menu.main]]
           identifier = "about"
           name = "درباره من"
-          url = "/about"
+          url = "/fa/about"
 
